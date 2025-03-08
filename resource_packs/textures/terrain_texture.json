@@ -1,0 +1,11 @@
+{
+    "texture_name": "atlas.terrain",
+    "resource_pack_name": "gardener",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "gardener:hyacinth": {
+            "textures": "textures/blocks/hyacinth"
+        }
+    }
+}

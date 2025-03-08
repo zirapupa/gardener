@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "gardener",
+        "description": "Make your garden look better with this behavior pack!",
+        "uuid": "6a781076-df18-4127-bc1c-548dce33dea7",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            50
+        ]
+    },
+    "modules": [
+        {
+            "description": "Add-on Pack Resources",
+            "type": "resources",
+            "uuid": "cc827a02-8a44-40b0-9c6d-f72ca8ade30a",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "33c3f83a-eac1-4022-b69c-101b40803073",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

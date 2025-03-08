@@ -1,0 +1,52 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "gardener",
+        "description": "Make your garden look better with this behavior pack!",
+        "uuid": "33c3f83a-eac1-4022-b69c-101b40803073",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            50
+        ]
+    },
+    "modules": [
+        {
+            "description": "Behavior",
+            "type": "data",
+            "uuid": "4137395c-c77e-4cc3-94a7-7e0964ebc3ff",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "description": "Script resources",
+            "language": "javascript",
+            "type": "script",
+            "uuid": "d6c3bbbc-c331-42f0-95ff-a28497833121",
+            "version": [
+                0,
+                0,
+                1
+            ],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "6a781076-df18-4127-bc1c-548dce33dea7",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

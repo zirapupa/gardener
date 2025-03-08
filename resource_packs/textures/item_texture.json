@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "Gardener",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "gardener:hyacinth_seed": {
+            "textures": "textures/items/hyacinth_seed"
+        }
+    }
+}
