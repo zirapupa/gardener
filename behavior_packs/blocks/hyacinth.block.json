@@ -13,7 +13,6 @@
 				"conditions": [
 					{
 						"block_filter": [
-							"minecraft:flower_pot",
 							"minecraft:grass_block",
 							"minecraft:dirt",
 							"minecraft:coarse_dirt",
@@ -26,14 +25,14 @@
 			"minecraft:collision_box": false,
 			"minecraft:selection_box": {
 				"origin": [
-					-8,
+					-4,
 					0,
-					0
+					-4
 				],
 				"size": [
+					8,
 					16,
-					16,
-					0
+					8
 				]
 			},
 			"minecraft:destructible_by_mining": {

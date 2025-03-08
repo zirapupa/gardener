@@ -4,6 +4,9 @@
     "texture_data": {
         "gardener:hyacinth_seed": {
             "textures": "textures/items/hyacinth_seed"
+        },
+        "gardener:hyacinth": {
+            "textures": "textures/items/hyacinth"
         }
     }
 }
