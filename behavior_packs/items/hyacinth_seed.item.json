@@ -4,7 +4,8 @@
         "description": {
             "identifier": "gardener:hyacinth_seed",
             "menu_category": {
-                "category": "nature"
+                "category": "nature",
+                "group": "itemGroup.name.seed"
             }
         },
         "components": {
