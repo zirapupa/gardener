@@ -18,6 +18,9 @@
 							"minecraft:coarse_dirt",
 							"minecraft:podzol",
 							"minecraft:farmland"
+						],
+						"allowed_faces": [
+							"up"
 						]
 					}
 				]
@@ -31,7 +34,7 @@
 				],
 				"size": [
 					8,
-					16,
+					8,
 					8
 				]
 			},
@@ -41,6 +44,16 @@
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 0
 			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"can_contain_liquid": false, 
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/flowers/hyacinth_block.json",
 			"minecraft:flammable": {
 				"destroy_chance_modifier": 40,
 				"catch_chance_modifier": 5
@@ -55,7 +68,8 @@
 				}
 			},
 			"minecraft:light_dampening": 0,
-			"minecraft:map_color": "#6b00eb"
+			"minecraft:map_color": "#6b00eb",
+			"tag:minecraft:flower": {}
 		}
 	}
 }
