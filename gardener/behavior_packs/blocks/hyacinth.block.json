@@ -4,8 +4,9 @@
 		"description": {
 			"identifier": "gardener:hyacinth",
 			"menu_category": {
-				"category": "nature",
-				"group": "itemGroup.name.flower"
+				"category": "none",
+				"group": "none",
+				"is_hidden_in_commands": true
 			}
 		},
 		"components": {

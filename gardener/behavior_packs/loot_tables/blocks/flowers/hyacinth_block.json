@@ -6,7 +6,7 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "gardener:hyacinth",
+            "name": "gardener:hyacinth_item",
             "functions": [
               {
                 "function": "set_count",
@@ -20,5 +20,4 @@
         ]
       }
     ]
-  }
-  
+  }  
